@@ -1,0 +1,44 @@
+.logo{
+    color:rgb(44,62,80);
+    font-family: Curlz MT;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+    
+}
+
+/* background color*/
+.headerbg{
+    background-color:rgb(100,124,100);
+}
+.middlebg{
+    background-color:rgb(209,227,237);
+}
+.footerbg{
+    background-color:rgb(112,146,190);
+}
+
+
+.menufont{
+    color:rgb(255,255,255);
+    font-weight: bold;
+    font-weight: 80%;
+}
+.middlefont{
+    color:rgb(100,124,100);
+}
+.footerfont{
+    color:rgb(112,146,190);
+}
+.stickright { 
+    float:right;
+  }
+.test{
+    border:10px solid black;
+}
+.sideinfo {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+  }
