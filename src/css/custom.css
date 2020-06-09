@@ -7,24 +7,32 @@ ul {
     background-color:rgb(100,124,100);
   }
   
-  li {
+li {
     float: right;
-
-   
+    
   }
   
-  li a {
+li a {
+    display: block;
     color: white;
     text-align: center;
-    padding: 10px,10px,10px,10px;
-    margin: 10px 40px 10px 10px;
+    padding: 0px 30px 0px 0px;
     text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    font-style: italic;
+    text-align:center;
+    font-size: 20px;  
+    text-decoration: none
   }
   
-  li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color:rgb(209,227,237);
+    align-content: center;
   }
-  
+  .active {
+    background-color:grey;
+    padding: 10px 10px 10px 10px;
+  }
  
 .logo{
     color:rgb(44,62,80);
@@ -32,6 +40,9 @@ ul {
     font-style: italic;
     font-weight: bold;
     font-size: 50px;  
+    padding: 20px 10px 20px 20px;
+    margin:20px 10px 20px 10px;
+
 }
 
 .headerbg{
@@ -42,11 +53,6 @@ ul {
 }
 .footerbg{
     background-color:rgb(112,146,190);
-}
-.menufont{
-    color:rgb(255,255,255);
-    font-weight: bold;
-    font-weight: 80%;
 }
 .middlefont{
     color:rgb(100,124,100);
@@ -62,3 +68,13 @@ ul {
     background-color: #eee;
 }
 
+/*side info*/
+.sideinfo {
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+ 
