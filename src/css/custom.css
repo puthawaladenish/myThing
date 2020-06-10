@@ -1,10 +1,9 @@
 /*navigation */
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:rgb(100,124,100);
   }
   
 li {
@@ -57,12 +56,13 @@ li a:hover:not(.active) {
 .middlefont{
     color:rgb(100,124,100);
 }
-.footerfont{
-    color:rgb(112,146,190);
+.footerbg{
+    background-color:rgb(112,146,190);
 }
-.test{
-    border:10px solid black;
+copyright{
+  background-color: ;
 }
+
 .nav > li > a:focus, .nav > li > a:hover {
     text-decoration: none;
     background-color: #eee;
@@ -76,5 +76,15 @@ li a:hover:not(.active) {
     text-align: center;
   }
 
-
+.cyan{
+  background-color: cyan;
+}
+.red{
+  background-color: blue;
+}
+.grey{
+  background-color: grey;
+}
+ 
+ 
  

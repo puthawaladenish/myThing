@@ -7,7 +7,7 @@ class Headerhome extends React.Component {
         <div className="headerbg">
             <nav>
                 <a className="logo" href="#">MyThings</a>
-                <ul>
+                <ul className="head">
                     <li><a href="#contact">Help</a></li>
                     <li><a href="#about">Login</a></li>
                 </ul>

@@ -5,6 +5,7 @@ import './css/grid.css';
 import './css/custom.css';
 import Header_home from './components/Header_home';
 import Maininfo from './components/Maininfo';
+import Footer from './components/footer'
 //import Navindex from './components/Navforindex';
 
 
@@ -13,7 +14,7 @@ function App() {
     <div>
       <Header_home/>
        <Maininfo/>
-       
+       <Footer/>
       
     </div>
   );

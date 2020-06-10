@@ -20,8 +20,12 @@ class Maininfo extends React.Component {
                 </div>
                 <div class="col-sm-6" >
                     <form action="">
-                        form headerbg
-
+      <input class="form-control" id="focusedInput" type="text"></input>
+      <input class="form-control" id="focusedInput" type="text"></input>
+      <input class="form-control" id="focusedInput" type="text"></input>
+      <input class="form-control" id="focusedInput" type="text"></input>
+      <input class="form-control" id="focusedInput" type="text"></input>
+      <input class="form-control" id="focusedInput" type="text"></input>
                     </form>
                 </div>
             </div>
