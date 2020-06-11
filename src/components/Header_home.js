@@ -4,7 +4,7 @@ class Headerhome extends React.Component {
     render() {
         
       return (
-        <div className="headerbg">
+        <div className="media-container-row headerbg">
             <nav>
                 <a className="logo" href="#">MyThings</a>
                 <ul className="head">

@@ -59,9 +59,7 @@ li a:hover:not(.active) {
 .footerbg{
     background-color:rgb(112,146,190);
 }
-copyright{
-  background-color: ;
-}
+
 
 .nav > li > a:focus, .nav > li > a:hover {
     text-decoration: none;
@@ -72,9 +70,15 @@ copyright{
 .sideinfo {
     font-family: 'Acme', sans-serif;
     text-transform: uppercase;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
   }
+  /* Form input*/
+.inputform{
+     margin: 40px 20px 20px 20px;
+     padding: 10px 10px 10px 10px;
+}
+
 
 .cyan{
   background-color: cyan;
@@ -85,6 +89,10 @@ copyright{
 .grey{
   background-color: grey;
 }
- 
- 
+.test{
+  border: 1px solid black;
+}
+.sameline{
+  display: inline-block;
+}
  
