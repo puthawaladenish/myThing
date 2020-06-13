@@ -1,0 +1,22 @@
+npm install react
+npm install react-date picker=>for date piking in form
+
+
+Section--------F_Name------------index---------change name
+
+ nav   -      Header_home =    indexpage
+main   -      maininfo    =    indexpage
+footer -      footer      =    indexpage
+
+
+
+Section--------F_Name--------------account---------change name
+
+nav   -        LoginNav    -     accountpage 
+
+
+
+
+static----------name---------change name
+
+Help         Help.js        

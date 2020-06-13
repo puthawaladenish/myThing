@@ -1,21 +1,22 @@
 import React from "react";
 
 class Headerhome extends React.Component {
-    render() {
-        
-      return (
-        <div className="media-container-row headerbg">
-            <nav>
-                <a className="logo" href="#">MyThings</a>
-                <ul className="head">
-                    <li><a href="#contact">Help</a></li>
-                    <li><a href="#about">Login</a></li>
-                </ul>
-            </nav>
+  render() {
 
+    return (
+      <div className="container-fluid headerbg">
+        <div className="col-md-12">
+          <nav>
+            <a className="logo" href="#">Likely</a>
+            <ul className="head">
+              <li><a href="#contact">Help</a></li>
+              <li><a href="#about">Login</a></li>
+            </ul>
+          </nav>
         </div>
-        
-      );
-    }
+      </div>
+
+    );
   }
+}
 export default Headerhome;
