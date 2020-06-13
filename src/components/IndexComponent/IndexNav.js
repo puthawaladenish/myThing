@@ -1,6 +1,6 @@
 import React from "react";
 
-class Headerhome extends React.Component {
+class IndexNav extends React.Component {
   render() {
 
     return (
@@ -19,4 +19,4 @@ class Headerhome extends React.Component {
     );
   }
 }
-export default Headerhome;
+export default IndexNav;

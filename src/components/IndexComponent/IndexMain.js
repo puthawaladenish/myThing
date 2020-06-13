@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Maininfo extends React.Component {
+class IndexMain extends React.Component {
     render() {
-        const info = require('../pics/info.gif');
+        const info = require('../../pics/info.gif');
 
         return (
             <div className="container-fluid">
@@ -66,4 +66,4 @@ class Maininfo extends React.Component {
         );
     }
 }
-export default Maininfo;
+export default IndexMain;

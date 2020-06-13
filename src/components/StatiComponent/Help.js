@@ -9,8 +9,9 @@ class Help extends React.Component {
                 <div class="row middlebg" >
 
                     <div class="col-md-12 sideinfo">
-
-
+                           <h1> Login </h1>
+                           
+                        
 
 
                         
