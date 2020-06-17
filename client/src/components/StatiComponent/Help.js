@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import IndexNav from '../';
 
 class Help extends React.Component {
     render() {
@@ -10,7 +9,6 @@ class Help extends React.Component {
                 <div class="row middlebg" >
 
                     <div class="col-md-12 sideinfo">
-                     <IndexNav/>
                         <div style={boxsize}>
                            
                         </div>
