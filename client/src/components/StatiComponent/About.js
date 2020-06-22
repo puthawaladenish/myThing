@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class Help extends React.Component {
+class About extends React.Component {
     render() {
          const boxsize ={height: "600px",
                          width: "200px"}
@@ -10,7 +10,7 @@ class Help extends React.Component {
                 <div class="row middlebg" >
                     <div class="col-md-12 sideinfo">
                         <div style={boxsize}>
-                           <h1> Help </h1>
+                        <h1> About </h1>
                         </div>
                         </div>
 
@@ -20,4 +20,4 @@ class Help extends React.Component {
         );
     }
 }
-export default Help;
+export default About;
