@@ -1,19 +1,27 @@
-const router = require ('express').router();
-const jwt -require('jsonwebtoken');
-const bodyparser = require('body-parser');
+const router = require ('express').Router();
+const jwt = require('jsonwebtoken');
+const bodyParser = require('body-parser');
 const {check,validationResult} = require('express-validator');
 const token_key = process.env.TOKEN_KEY;
 const moment = require('moment');
-const usermodel = require('../dbmodels/usermodel');
+const userModel = require('../dbmodels/userModel');
 
 //middleware setup
-router.use(bodyparser.json());
-router.use(bodyparser.urlencoded({extended:true}));
+router.use(bodyParser.json());
+router.use(bodyParser.urlencoded({extended:true}));
 
-
+//default route
 router.all('/',(req,res)=>{
     res.json({
         status:true,
         message:'user controller default route'
     });
-});
+}
+);
+
+//register user 
+
+
+
+//export router
+module.exports = router;

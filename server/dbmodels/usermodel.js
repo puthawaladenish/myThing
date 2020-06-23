@@ -32,7 +32,7 @@ const userSchema = mongoose.Schema({
     },
     bdate: {
         type: String,
-        default: moment().format(DD / MM / YYYY)
+        require:true
     },
     createdAt: {
         type: String,
@@ -41,7 +41,7 @@ const userSchema = mongoose.Schema({
 });
 
 //Create-User Model 
-mongoose.model('usermodel',userSchema);
+mongoose.model('userModel',userSchema);
 
 //Export Module
-module.exports = mongoose.model('usermodel');
+module.exports = mongoose.model('userModel');
