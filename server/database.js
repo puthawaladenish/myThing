@@ -6,4 +6,4 @@ const db_url = process.env.DB_URL;
  mongoose.connect('db_url',{useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
-}, () => console.log('Database is connection OK'));
+}, () => console.log('Database Connection is OK'));

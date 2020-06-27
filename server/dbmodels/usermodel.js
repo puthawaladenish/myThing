@@ -26,10 +26,6 @@ const userSchema = mongoose.Schema({
         type: String,
         require: true
     },
-    cpassword: {
-        type: String,
-        require: true
-    },
     bdate: {
         type: String,
         require:true
@@ -37,7 +33,7 @@ const userSchema = mongoose.Schema({
     createdAt: {
         type: String,
         default: moment().format('DD/MM/YYYY') + ';' + moment().format('hh:mm:ss')
-    },
+    }
 });
 
 //Create-User Model 
